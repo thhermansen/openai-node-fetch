@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   openai:
-    specifier: 4.12.1
-    version: 4.12.1
+    specifier: 4.12.2
+    version: 4.12.2
 
 devDependencies:
   '@types/node':
@@ -414,8 +414,8 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
-  /openai@4.12.1:
-    resolution: {integrity: sha512-EAoUwm4dtiWvFwBhOCK/VfF8sj1ZU8+aAIJnfT4NyeTfrt1DM/6Gdd6fOZWTjBYryTAqu9Vpb5+9Wu6JMtm/gA==}
+  /openai@4.12.2:
+    resolution: {integrity: sha512-3ijtNbjN3zIt9Ltpu0QJcftjqzbvosaoaj17C1dNtqdslZKFuwDXpTL0g0ovIAIBIlyI/FNLTJGm31Mph7d/XA==}
     hasBin: true
     dependencies:
       '@types/node': 18.18.5
@@ -426,6 +426,7 @@ packages:
       form-data-encoder: 1.7.2
       formdata-node: 4.4.1
       node-fetch: 2.7.0
+      web-streams-polyfill: 3.2.1
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -442,6 +443,11 @@ packages:
 
   /undici-types@5.25.3:
     resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
+
+  /web-streams-polyfill@3.2.1:
+    resolution: {integrity: sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==}
+    engines: {node: '>= 8'}
+    dev: false
 
   /web-streams-polyfill@4.0.0-beta.3:
     resolution: {integrity: sha512-QW95TCTaHmsYfHDybGMwO5IJIM93I/6vTRk+daHTWFPhwh+C8Cg7j7XyKrwrj8Ib6vYXe0ocYNrmzY4xAAN6ug==}
