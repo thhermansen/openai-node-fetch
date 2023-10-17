@@ -1,0 +1,39 @@
+{
+"$schema": "https://json.schemastore.org/tsconfig",
+"display": "Default",
+"compilerOptions": {
+    "composite": false,
+    "declaration": false,
+    "declarationMap": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedParameters": true,
+    "noImplicitThis": true,
+    "preserveWatchOutput": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext",
+    "checkJs": false,
+    "noEmit": true,
+    "importHelpers": true,
+    "lib": [
+        "ES2020"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    ".turbo"
+  ]
+}
+
+
